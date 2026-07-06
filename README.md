@@ -61,14 +61,6 @@ The original feature engineering step accidentally included `customerID` — a u
 2. **Investigate fiber optic and electronic-check segments** for service reliability or payment-experience friction.
 3. **Promote tech support and autopay adoption** — both are strongly associated with lower churn and are low-cost retention levers.
 
-## How to run
-
-```bash
-git clone https://github.com/wardahshakeel/customer-retention-prediction.git
-cd customer-retention-prediction
-pip install -r requirements.txt
-jupyter notebook
-```
 
 Run the notebooks in order (01 → 05). Notebook 03 regenerates `X_train.csv` / `X_test.csv` / `y_train.csv` / `y_test.csv`, which are intentionally excluded from version control as derived, reproducible artifacts.
 
@@ -76,6 +68,4 @@ Run the notebooks in order (01 → 05). Notebook 03 regenerates `X_train.csv` / 
 
 Python, pandas, scikit-learn, imbalanced-learn (SMOTE), matplotlib
 
-## License
 
-MIT
